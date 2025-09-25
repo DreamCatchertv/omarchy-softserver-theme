@@ -1,8 +1,9 @@
 return {
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "catppuccin",
-		},
-	},
+  { "wincent/base16-nvim" },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "soft-server",
+    },
+  },
 }
